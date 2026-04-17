@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main() {
+    float preco;
+    scanf("%f", &preco);
+    printf("Novo preco: %.2f", preco * 0.85);
+    return 0;
+}
