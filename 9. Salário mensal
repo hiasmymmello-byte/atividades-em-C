@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main() {
+    float valorHora, horas;
+    scanf("%f %f", &valorHora, &horas);
+    printf("Salario: %.2f", valorHora * horas);
+    return 0;
+}
