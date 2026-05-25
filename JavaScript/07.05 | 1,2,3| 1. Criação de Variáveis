@@ -1,0 +1,6 @@
+const nome = "Tay";
+const idade = 19;           
+const cidade = "Campo Mourão";    
+
+
+console.log(nome);
