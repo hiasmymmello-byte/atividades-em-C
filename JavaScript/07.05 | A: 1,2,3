@@ -1,0 +1,21 @@
+const nomePersonagem = "Valk";
+
+let idadePersonagem = 20;
+let energia = 100;
+
+console.log(`O herói ${nomePersonagem} tem ${idadePersonagem} anos e sua energia atual é ${energia}.`);
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+let carteira = 50;
+carteira = carteira + 5; // Agora vale 55
+carteira = carteira - 12; // Agora vale 43
+
+console.log(`Valor final na carteira: R$ ${carteira}`);
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+const primeiroNome = "Valk";
+const sobrenome = "Volnkon";
+const nomeCompleto = primeiroNome + " " + sobrenome;
+console.log(nomeCompleto);
+
