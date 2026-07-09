@@ -1,0 +1,13 @@
+create database nome_do_banco
+-- define que banco vai aceitar qualquer caractere
+default character SET utf8mb4
+-- banco vai ignorar acentos, letras maiúscula e minúsculas
+collate utf8mb4_0900_ai_ci;
+-- seleciona
+use nome_do_banco;
+-- se for excluir
+drop database nome_do_banco;
+
+create table if not exists nome_do_banco(
+   
+)character set utf8mb4;
